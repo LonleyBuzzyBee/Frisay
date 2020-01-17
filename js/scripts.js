@@ -7,30 +7,30 @@ $(document).ready(function() {
     var q5 = parseInt($("#q5").val()); 
     var q6 = parseInt($("#q6").val()); 
     var score = q1+q2+q3+q4+q5+q6;
-    
-    if (score <= 3) {
+
+    if (score < 7) {
       $(".ruby").show();
-      $(".c#").hide();
+      $(".c").hide();
       $(".go").hide();
       $(".javascript").hide();
     }
-    else if (score > 3 && score <= 5) {
-      $(".c#").show();
+    else if (score >= 10 && score <= 15) {
+      $(".c").show();
       $(".ruby").hide();
       $(".go").hide();
       $(".javascript").hide();
     }
-    else if (score > 5 && score <= 7) {
+    else if (score >= 15 && score <= 18) {
       $(".go").show();
       $(".ruby").hide();
-      $(".c#").hide();
+      $(".c").hide();
       $(".javascript").hide();
     }
-    else if (score === 8) {
+    else if (score > 18 && score <= 24) {
       $(".javascript").show();
       $(".go").hide();
       $(".ruby").hide();
-      $(".c#").hide();
+      $(".c").hide();
     }
     
   event.preventDefault();
