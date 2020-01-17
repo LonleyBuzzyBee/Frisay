@@ -9,17 +9,30 @@ $(document).ready(function() {
     var score = q1+q2+q3+q4+q5+q6;
     
     if (score <= 2) {
-      $(".coffee").show();
-      $(".tea").hide();
+      $(".ruby").show();
+      $(".c#").hide();
+      $(".go").show();
+      $(".javascript").hide();
     }
     else if (score === 3) {
-      $(".tea").show();
-      $(".coffee").hide();
+      $(".c#").show();
+      $(".ruby").hide();
+      $(".go").show();
+      $(".javascript").hide();
     }
     else if (score > 3) {
-      $(".tea").show();
-      $(".coffee").hide();
+      $(".go").show();
+      $(".ruby").hide();
+      $(".c#").show();
+      $(".javascript").hide();
     }
+    else if (score === 3) {
+      $(".javascript").show();
+      $(".go").hide();
+      $(".ruby").hide();
+      $(".c#").hide();
+    }
+    
   event.preventDefault();
   });
 });
