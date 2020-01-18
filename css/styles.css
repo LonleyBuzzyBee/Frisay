@@ -5,6 +5,9 @@ h1 {
   background: linear-gradient(#fcd3f6, #7fe4fa, #8191ff);
   color:#1c245f ;
 }
+#title {
+  font-size: 20px;
+}
 body {
   background-image: url(https://static.zerochan.net/5.Centimeters.Per.Second.full.1830428.jpg);
   background-color: #cccccc
