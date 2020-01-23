@@ -20,15 +20,50 @@ p {
 .ruby {
   display: none;
 }
-  
+
 .c {
   display: none;
 }
 .go {
   display: none;
 }
-  
+
 .javascript {
   display: none;
 }
-  
+.info-box-wrap {
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  display: none;
+}
+.info-box-close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+.info-box {
+  background: black;
+  color: #fcd3f6;
+  padding: 30px;
+  position: relative;
+  width: 50%;
+  display: none;
+}
+.info-text {
+  display: none;
+}
+.info-text h2 {
+  text-transform: capitalize;
+}
+#surveyTitle {
+  font-size: 20px;
+}

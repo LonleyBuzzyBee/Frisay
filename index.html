@@ -8,88 +8,123 @@
     <title>friday project</title>
 </head>
 <body>
-    <div class="container">
+  <div class="container">
     <div class="jumbotron">
-    <h1>Programming Languages</h1>
-    <p>Hey there! if you're here you've been thinking about getting a career in web development/design and you're ready to dive in. But wait! What's a 'CSS'??!! What does 'Javascript mean??!! Isn't 'Go' a japanese board game??? You've probably realized you need to learn the vocab, and more importantly learn your first programming language. And yes is is kind of like learning another langueage like french or spanish but it doesn't have to be scary! In this webpage we'll go over some basics, and discuss some programming langueas and hopefully help you pick out your first language.</p>
-    <h2>Don't know which language you want to learn first? Find out which one might be the most fitting by filling out this legitimate survey!!</h1>
-    <br>
-    <h2 id="title"><em>Click the language to learn more:</em></h2>
-    <h2>
+      <h1>Programming Languages</h1>
+      <p>Hey there! if you're here you've been thinking about getting a career in web development/design and you're ready to dive in. But wait! What's a 'CSS'??!! What does 'Javascript mean??!! Isn't 'Go' a japanese board game??? You've probably realized you need to learn the vocab, and more importantly learn your first programming language. And yes is is kind of like learning another langueage like french or spanish but it doesn't have to be scary! In this webpage we'll go over some basics, and discuss some programming langueas and hopefully help you pick out your first language.</p>
+      <br>
+      <br>
+      <h2 id="title"><em>Click the language to learn more:</em></h2>
+      <br>
       <div class="container">
-      <div class="row">
-        <div class="col-sm">
-            <button type="click" class="btn">Ruby</button>
-        </div>
-        <div class="col-sm">
-            <button type="click" class="btn">C#</button>
-        </div>
-        <div class="col-sm">
-            <button type="click" class="btn">Go</button>
-        </div>
-        <div class="col-sm">
-            <button type="click" class="btn">Javascript</button>
-        </div>
+        <div class="row">
+          <div class="col-sm">
+              <button type="click" class="btn btn-lang">Ruby</button>
+          </div>
+          <div class="col-sm">
+              <button type="click" class="btn btn-lang">C#</button>
+          </div>
+          <div class="col-sm">
+              <button type="click" class="btn btn-lang">Go</button>
+          </div>
+          <div class="col-sm">
+              <button type="click" class="btn btn-lang">Javascript</button>
+          </div>
         </div>
       </div>
-    </h2>
-    <form id="quiz">
-      <label for="question1">Do you enjoy poetry?</label>
-      <select class="form-control" id="q1">
-        <option value="1">kinda</option>
-        <option value="2">Maya Angelou is my favorite C:</option>
-        <option value="3">nah i'm uncultured</option>
-        <option value="4">“Quoth the Raven, "Nevermore.”</option>
+      <br>
+      <br>
+      <h2 id="surveyTitle">Don't know which language you want to learn first? Find out which one might be the most fitting by filling out this legitimate survey!!</h2>
+      <br>
+      <br>
+      <form id="quiz">
+        <label for="question1">Do you enjoy poetry?</label>
+        <select class="form-control" id="q1">
+          <option value="1">kinda</option>
+          <option value="2">Maya Angelou is my favorite C:</option>
+          <option value="3">nah i'm uncultured</option>
+          <option value="4">“Quoth the Raven, "Nevermore.”</option>
+          </select>
+        <label for="question2">Which is your favorite Ghibli film?</label>
+        <select class="form-control" id="q2">
+          <option value="1">Grave of the Fireflies</option>
+          <option value="2">Kiki's Delivery Service</option>
+          <option value="3">what's a 'Ghibli'? is it a food?</option>
+          <option value="4">Howl's Moving Caslte</option>
         </select>
-      <label for="question2">Which is your favorite Ghibli film?</label>
-      <select class="form-control" id="q2">
-        <option value="1">Grave of the Fireflies</option>
-        <option value="2">Kiki's Delivery Service</option>
-        <option value="3">what's a 'Ghibli'? is it a food?</option>
-        <option value="4">Howl's Moving Caslte</option>
-      </select>
-      <label for="question3">Whats your biggest priority before you leave the house?</label>
-      <select class="form-control" id="q3">
-        <option value="1">Making sure I have on matching socks, and a packed lunch because i'm an adult.</option>
-        <option value="2">Having my bed made, because I care about myself.</option>
-        <option value="3">Making sure I have money to get iced coffee, even though i'm already late.</option>
-        <option value="4">Flossing, because I want to make my oral hygienist proud.</option>
-      </select>
-      <label for="question4">Why men great 'till they gotta be great?</label>
-      <select class="form-control" id="q4">
-        <option value="1">I just took a DNA test, turns out I'm 100% that b*tch even when I'm crying crazy</option>
-        <option value="2">Yeah, I got boy problems, that's the human in me bling bling, then I solve 'em, that's the goddess in me!</option>
-        <option value="3">not all men! wait I think I missed the memo....</option>
-        <option value="4">You're 'posed to hold me dowwwwn, but you're holding me bACk, and that's the soouuuund of me not caALLING YOU BACK!!!</option>
-      </select>
-      <label for="question5">favorite reddit thread?</label>
-      <select class="form-control" id="q5">
-        <option value="1">r/dechonkers</option>
-        <option value="2">r/ProgrammingPals</option>
-        <option value="3">I only use facebook</option>
-        <option value="4">r/TIFU</option>
-      </select>
-      <label for="question6">What do you like to do for fun?</label>
-      <select class="form-control" id="q6">
-        <option value="1">Play League or dnd</option>
-        <option value="2">Go out to all the best spots in town, like ground kontrol, and pottery is fun</option>
-        <option value="3">Leave rude comments under peoples posts online</option>
-        <option value="4">play DDR like it's a god tier power</option>
-      </select>
-        <button type="submit" class="btn">Find out!</button>
-    </form>
-    <div class="ruby">
-      <p>ruby</p>
+        <label for="question3">Whats your biggest priority before you leave the house?</label>
+        <select class="form-control" id="q3">
+          <option value="1">Making sure I have on matching socks, and a packed lunch because i'm an adult.</option>
+          <option value="2">Having my bed made, because I care about myself.</option>
+          <option value="3">Making sure I have money to get iced coffee, even though i'm already late.</option>
+          <option value="4">Flossing, because I want to make my oral hygienist proud.</option>
+        </select>
+        <label for="question4">Why men great 'till they gotta be great?</label>
+        <select class="form-control" id="q4">
+          <option value="1">I just took a DNA test, turns out I'm 100% that b*tch even when I'm crying crazy</option>
+          <option value="2">Yeah, I got boy problems, that's the human in me bling bling, then I solve 'em, that's the goddess in me!</option>
+          <option value="3">not all men! wait I think I missed the memo....</option>
+          <option value="4">You're 'posed to hold me dowwwwn, but you're holding me bACk, and that's the soouuuund of me not caALLING YOU BACK!!!</option>
+        </select>
+        <label for="question5">favorite reddit thread?</label>
+        <select class="form-control" id="q5">
+          <option value="1">r/dechonkers</option>
+          <option value="2">r/ProgrammingPals</option>
+          <option value="3">I only use facebook</option>
+          <option value="4">r/TIFU</option>
+        </select>
+        <label for="question6">What do you like to do for fun?</label>
+        <select class="form-control" id="q6">
+          <option value="1">Play League or dnd</option>
+          <option value="2">Go out to all the best spots in town, like ground kontrol, and pottery is fun</option>
+          <option value="3">Leave rude comments under peoples posts online</option>
+          <option value="4">play DDR like it's a god tier power</option>
+        </select>
+          <button type="submit" class="btn">Find out!</button>
+      </form>
+      <div class="ruby">
+        <p>ruby</p>
+      </div>
+      <div class="c">
+        <p>c#</p>
+      </div>
+      <div class="go">
+        <p>go</p>
+      </div>
+      <div class="javascript">
+        <p>javascript</p>
+      </div>
     </div>
-    <div class="c">
-      <p>c#</p>
-    </div>
-    <div class="go">
-      <p>go</p>
-    </div>
-    <div class="javascript">
-      <p>javascript</p>
-    </div>
+  </div>
+  <div class="info-box-wrap">
+    <div class="info-box">
+      <svg class="bi bi-x-square info-box-close" width="2em" height="2em" viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" d="M16 3H4a1 1 0 00-1 1v12a1 1 0 001 1h12a1 1 0 001-1V4a1 1 0 00-1-1zM4 2a2 2 0 00-2 2v12a2 2 0 002 2h12a2 2 0 002-2V4a2 2 0 00-2-2H4z" clip-rule="evenodd"></path>
+        <path fill-rule="evenodd" d="M9.293 10L6.646 7.354l.708-.708L10 9.293l2.646-2.647.708.708L10.707 10l2.647 2.646-.708.708L10 10.707l-2.646 2.647-.708-.707L9.293 10z" clip-rule="evenodd"></path>
+      </svg>
+      <div id="info-ruby" class="info-text">
+        <h2>ruby</h2>
+        <p>"Ruby is an interpreted, high-level, general-purpose programming language. It was designed and developed in the mid-1990s by Yukihiro "Matz" Matsumoto in Japan.
+        Ruby is dynamically typed and uses garbage collection. It supports multiple programming paradigms, including procedural, object-oriented, and functional programming. According to the creator, Ruby was influenced by Perl, Smalltalk, Eiffel, Ada, Basic, and Lisp."</p>
+        <a href="https://en.wikipedia.org/wiki/Ruby_(programming_language)"> source</a>
+      </div>
+      <div id="info-c" class="info-text">
+        <h2>c#</h2>
+        <p>"C# (pronounced see sharp, like the musical note C♯, but written with the number sign)[b] is a general-purpose, multi-paradigm programming language encompassing strong typing, lexically scoped, imperative, declarative, functional, generic, object-oriented (class-based), and component-oriented programming disciplines.[16] It was developed around 2000 by Microsoft as part of its .NET initiative, and later approved as an international standard by Ecma (ECMA-334) and ISO (ISO/IEC 23270:2018). Mono is the name of the free and open-source project to develop a compiler and runtime for the language. C# is one of the programming languages designed for the Common Language Infrastructure (CLI). C# was designed by Anders Hejlsberg, and its development team is currently led by Mads Torgersen. The most recent version is 8.0, which was released in 2019 alongside Visual Studio 2019 version 16.3."</p><a href="https://en.wikipedia.org/wiki/C_Sharp_(programming_language)"> source</a>
+      </div>
+      <div id="info-go" class="info-text">
+        <h2>go</h2>
+        <p>"Go, also known as Golang,[14] is a statically typed, compiled programming language designed at Google[15] by Robert Griesemer, Rob Pike, and Ken Thompson.[12] Go is syntactically similar to C, but with memory safety, garbage collection, structural typing,[6] and CSP-style concurrency.[16]There are two major implementations:
+          <ul>
+            <li>Google's self-hosting[17] compiler toolchain targeting multiple operating systems, mobile devices,[18] and WebAssembly.[19]</li>
+              <li>gccgo, a GCC frontend.[20][21]</li>
+          </ul>
+        A third party transpiler, GopherJS,[22] compiles Go to JavaScript for front-end web development."</p><a href="https://en.wikipedia.org/wiki/Go_(programming_language)"> source</a>
+      </div>
+      <div id="info-javascript" class="info-text">
+        <h2>javascript</h2>
+        <p>"JavaScript is a scripting or programming language that allows you to implement complex features on web pages — every time a web page does more than just sit there and display static information for you to look at — displaying timely content updates, interactive maps, animated 2D/3D graphics, scrolling video jukeboxes, etc. — you can bet that JavaScript is probably involved. It is the third layer of the layer cake of standard web technologies, two of which (HTML and CSS) we have covered in much more detail in other parts of the Learning Area."</p><a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_is_JavaScript">source</a>
+      </div>
     </div>
   </div>
 </body>
