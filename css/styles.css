@@ -67,3 +67,7 @@ p {
 #surveyTitle {
   font-size: 20px;
 }
+#pic1 {
+  margin: 20px auto;
+  display: block;
+}
